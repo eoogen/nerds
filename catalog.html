@@ -26,7 +26,66 @@
         <main class="container">
             <section class="filters">
                 <h2 class="visual-hidden">Фильтр товаров</h2>
-                <!-- Здесь будет форма -->
+                <form class="filter" action="get" action="#">
+                    <fieldset>
+                        <legend>СТОИМОСТЬ:</legend>
+                        <ul>
+                            <li class="filter-option">
+                                <input type="range" min="0" max="15000" step="any">
+                            </li> 
+                            <li class="filter-option">
+                                <label for="min-price-form">ОТ</label>
+                                <input id="min-price-form" type="number" min="0">
+                            </li>
+                            <li class="filter-option">
+                                <label for="max-price-form">ДО</label>
+                                <input id="max-price-form" type="number" max="15000" >
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Сетка:</legend>
+                        <ul>
+                            <li class="filter-option">
+                                <input id="adaptive-filter" class="visually-hidden filter-input filter-input-radio" type="radio" name="product-group" value="adaptive" checked>
+                                <label for="adaptive-filter">Адаптивная</label>
+                            </li>
+                            <li class="filter-option">
+                                <input id="fixed-filter" class="visually-hidden filter-input filter-input-radio" type="radio" value="fixed" name="fixed">
+                                <label for="fixed-filter">Фиксированная</label>
+                            </li>
+                            <li class="filter-option">
+                                <input id="flex-filter" class="visually-hidden filter-input filter-input-radio" type="radio" value="flex" name="flex">
+                                <label for="flex-filter">Резиновая</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                    <fieldset>
+                        <legend>ОСОБЕННОСТИ:</legend>
+                        <ul>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slaider" id="slaider-filter" checked>
+                                <label for="slaider-filter">Слайдер</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="features" id="features-filter">
+                                <label for="features-filter">Блок преимуществ</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="news-filter" checked>
+                                <label for="news-filter">Новости</label>
+                            </li>
+                            <li class="filter-option">
+                                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galery" id="galery-filter">
+                                <label for="galery-filter">Галерея</label>
+                            </li>
+                            <li>
+                                <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="trash" id="trash-filter">
+                                <label for="trash-filter">Корзина</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
             </section>
             <section class="catalog">
                 <h2 class="visual-hidden">Список сайтов</h2>
@@ -130,7 +189,7 @@
                 <p>191186, Санкт-Петербург,  ул. Б. Конюшенная, д. 19/8</p>
                 <b>тел. +7 (812) 275-75-75</b><br>
                 <a class="bottom" href="#">Напишите нам</a><br>
-                <img src="img/map-marker.png" width="231" height="190" alt="map">
+                <img src="img/map.jpg" width="1725" height="808" alt="map">
             </section>
             <section class="footer-social">
                 <a class="social-bottom" href="#">vk</a>
@@ -138,12 +197,28 @@
                 <a class="social-bottom" href="#">instagram</a>
             </section>
             <section class="footer-bottom">
-                <h3>Давайте дружить, это выгодно!</h3><br>
+                <h3>Давайте дружить, это выгодно!</h3>
                 <p>Скидка 10% для друзей из социальных сетей.</p>
             </section>
         </footer>
         <section class="modal modal-contact">
-            <!--form-->
+            <form class="feedback-form" action="#" method="post">
+                <h2>Напишите нам</h2>
+                <p>
+                    <label for="name-form">Ваше имя:</label>
+                    <input id="name-form" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+                </p>
+                <p>
+                    <label for="mail-form">Ваш e-mail:</label>
+                    <input id="mail-form" type="text" name="mail" value="" placeholder="Для отправки ответа">
+                </p>
+                <p>
+                    <label for="text-form">Текст письма:</label>
+                    <textarea name="text-form" id="text-form" cols="30" rows="10">В свободной форме</textarea>
+                </p>
+                <button class="button" type="submit">ОТПРАВИТЬ</button>
+            </form>
+            <button class="modal-close" type="button">Закрыть</button>
         </section>
     </body>
 </html>
