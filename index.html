@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="css/css.css">
     </head>
     <body>
-        <header class="main-header">
+        <header class="main-header container">
             <nav class="main-navigation">
                 <a class="main-header-logo" href="#"><img src="img/nerds-logo.svg" alt="Nerds_logo" width="160" height="65"></a>
                 <ul class="site-navigation">
@@ -23,30 +23,19 @@
                     </li>
                 </ul>
             </nav>
-            <h1 class="visual-hidden">Nerds</h1>
             <section class="slaider">
                 <h2 class="visual-hiden">Slider</h2>
                 <ul class="slider-list">
                     <li class="slider-item">
-                        <img src="img/slide1.png" alt="Долго, дорого,  скрупулезно.">
-                        <h3>Долго, дорого,  скрупулезно.</h3>
-                        <p>Математически выверенный дизайн
-                            для вашего сайта или мобильного приложения.</p>
-                        <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
-                    </li>
-                    <li class="slider-item">
-                        <img src="img/slide2.png" alt="Любим математику как никто другой">
-                        <h3>Любим математику как никто другой</h3>
-                        <p>Никакого креатива, только математические формулы
-                            для расчета идеальных пропорций.</p>
-                        <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
-                    </li>
-                    <li class="slider-item">
-                        <img src="img/slide3.png" alt="Только ночь, только хардкор">
-                        <h3>Только ночь, только хардкор</h3>
-                        <p>Работать днем, как все? Мы против этого.
-                            Ближе к полуночи работа только начинается.</p>
-                        <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+                        <div class="slider-column">
+                            <h3>Долго, дорого,  скрупулезно.</h3>
+                            <p>Математически выверенный дизайн
+                                для вашего сайта или мобильного приложения.</p>
+                            <a class="button" href="#">УЗНАТЬ БОЛЬШЕ</a>
+                        </div>
+                        <div class="image-column">
+                            <img src="img/slide1.png" alt="Долго, дорого,  скрупулезно.">
+                        </div>
                     </li>
                 </ul>
             </section>
@@ -76,39 +65,53 @@
                 </ul>
             </section>
             <section class="studio">
-                <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
-                <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
-                    превыше креатива. Работаем не покладая рук, как роботы.
-                </p>
-                <h3>Выполняем заказы на разработку:</h3>
-                <ul class="studio-list">
-                    <li class="studio-item">Веб-сайтов любой сложности</li>
-                    <li class="studio-item">Мобильных приложений для iOS и Android</li>
-                    <li class="studio-item">Слайдшоу и видео для корпоративных презентаций</li>
-                </ul>
-                <img src="img/nerds-illustration.svg" width="360" height="208" alt="nerds">
-                <h3>с 2004 года Любим точность во всем:</h3>
-                <table>
-                     <tr>
-                        <td>146%</td>
-                        <td>100%</td>
-                        <td>50%</td>
-                    </tr>
-                    <tr>
-                        <td><br>Уровень<br>самоотдачи</td>
-                        <td><br>Соблюдение<br>сроков</td>
-                        <td><br>Минимальная<br>предоплата</td>
-                    </tr>
-                </table>
+                <div class="studio-column1">
+                    <h2>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h2>
+                    <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет
+                        превыше креатива. Работаем не покладая рук, как роботы.
+                    </p>
+                    <h3>Выполняем заказы на разработку:</h3>
+                    <ul class="studio-list">
+                        <li class="studio-item">Веб-сайтов любой сложности</li>
+                        <li class="studio-item">Мобильных приложений для iOS и Android</li>
+                        <li class="studio-item">Слайдшоу и видео для корпоративных презентаций</li>
+                    </ul>
+                </div>
+                <div class="studio-column2">
+                    <img src="img/nerds-illustration.svg" width="360" height="208" alt="nerds">
+                    <h3>с 2004 года Любим точность во всем:</h3>
+                    <table>
+                        <tr>
+                            <td>146%</td>
+                            <td>100%</td>
+                            <td>50%</td>
+                        </tr>
+                        <tr>
+                            <td><br>Уровень<br>самоотдачи</td>
+                            <td><br>Соблюдение<br>сроков</td>
+                            <td><br>Минимальная<br>предоплата</td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+            <section class="product">
                 <ul class="product-list">
-                    <li class="product-item"><img src="img/logo-1.png" width="199" height="68" alt="html-academy"></li>
-                    <li class="product-item"><img src="img/logo-2.png" width="209" height="90" alt="borodinskii"></li>
-                    <li class="product-item"><img src="img/logo-3.png" width="185" height="52" alt="pink"></li>
-                    <li class="product-item"><img src="img/logo-4.png" width="173" height="84" alt="mishka"></li>
+                    <li class="product-item">
+                        <img src="img/logo-1.png" width="199" height="68" alt="html-academy">
+                    </li>
+                    <li class="product-item">
+                        <img src="img/logo-2.png" width="209" height="90" alt="borodinskii">
+                    </li>
+                    <li class="product-item">
+                        <img src="img/logo-3.png" width="185" height="52" alt="pink">
+                    </li>
+                    <li class="product-item">
+                        <img src="img/logo-4.png" width="173" height="84" alt="mishka">
+                    </li>
                 </ul>
             </section>
         </main>
-        <footer class="footer">
+        <footer class="footer container">
             <section class="footer-contacts">
                 <div class="card-contacts">
                     <h2 class="visualy-hidden">Contacts</h2>
@@ -117,17 +120,28 @@
                     <b>тел. +7 (812) 275-75-75</b><br>
                     <a class="button" href="#">Напишите нам</a><br>
                 </div>
+                <div class="mark-contacts">
+                    <img src="img/map-marker.png" width="231" height="190" alt="mark">
+                </div>
             </section>
-            <section class="footer-social">
-                <ul>
-                    <li><a class="social-bottom" href="#">vk</a></li>
-                    <li><a class="social-bottom" href="#">facebook</a></li>
-                    <li><a class="social-bottom" href="#">instagram</a></li>
-                </ul>
-            </section>
-            <section class="footer-bottom">
-                <h3>Давайте дружить, это выгодно!</h3>
-                <p>Скидка 10% для друзей из социальных сетей.</p>
+            <section class="footer-social container">
+                <div class="social-column">
+                    <ul class="social-list">
+                        <li><a class="social-bottom" href="#">vk</a></li>
+                        <li><a class="social-bottom" href="#">facebook</a></li>
+                        <li><a class="social-bottom" href="#">instagram</a></li>
+                    </ul>
+                </div>
+                <div class="bottom-column">
+                    <ul class="bottom-list">
+                        <li class="bottom-item">
+                            Давайте дружить, это выгодно!
+                        </li>
+                        <li class="bottom-item">
+                            Скидка 10% для друзей из социальных сетей.
+                        </li>
+                    </ul>
+                </div>
             </section>
         </footer>
         <section class="modal modal-contact">
