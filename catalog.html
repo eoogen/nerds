@@ -28,25 +28,25 @@
         <main class="container">
             <div class="main-column">
                 <section class="filters">
-                    <h2 class="visual-hidden">Фильтр товаров</h2>
+                    <h2 class="visually-hidden">Фильтр товаров</h2>
                     <form class="filter" method="get" action="#">
-                        <fieldset>
-                            <legend>СТОИМОСТЬ:</legend>
-                            <ul class="filter-list">
-                                <li class="filter-option">
-                                    <input type="range" min="0" max="15000" step="any">
-                                </li>
-                                <li class="filter-option">
-                                    <label for="min-price-form">ОТ</label>
-                                    <input id="min-price-form" type="number" min="0" value="0">
-                                </li>
-                                <li class="filter-option">
-                                    <label for="max-price-form">ДО</label>
-                                    <input id="max-price-form" type="number" max="15000" value="15000">
-                                </li>
-                            </ul>
+                        <fieldset class="filter-item">
+                            <legend>Стоимость:</legend>
+                            <div class="range-filter">
+                                <div class="range-controls">
+                                    <div class="scale">
+                                        <div class="bar"></div>
+                                    </div>
+                                    <div class="toggle toggle-min"></div>
+                                    <div class="toggle toggle-max"></div>
+                                </div>
+                                <div class="price-controls">
+                                    <label class="min-price">от <input name="min-price" type="text" value="0"></label>
+                                    <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
+                                </div>
+                            </div>
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="filter-item">
                             <legend>Сетка:</legend>
                             <ul class="filter-list">
                                 <li class="filter-option">
@@ -63,7 +63,7 @@
                                 </li>
                             </ul>
                         </fieldset>
-                        <fieldset>
+                        <fieldset class="filter-item">
                             <legend>ОСОБЕННОСТИ:</legend>
                             <ul class="filter-list">
                                 <li class="filter-option">
@@ -82,7 +82,7 @@
                                     <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galery" id="galery-filter">
                                     <label for="galery-filter">Галерея</label>
                                 </li>
-                                <li>
+                                <li class="filter-option">
                                     <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="trash" id="trash-filter">
                                     <label for="trash-filter">Корзина</label>
                                 </li>
@@ -92,7 +92,7 @@
                     </form>
                 </section>
                 <section class="catalog">
-                    <h2 class="visual-hidden">Список сайтов</h2>
+                    <h2 class="visually-hidden">Список сайтов</h2>
                     <ul class="catalog-filter">
                         <p>СОРТИРОВАТЬ:</p>
                         <li class="catalog-filter-item"><a href="#">По цене</a></li>
