@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf539223-9076-4985-a15c-4da5170b38a8" name="Default Changelist" comment="bug resolve">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/catalog.html" beforeDir="false" afterPath="$PROJECT_DIR$/catalog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,15 +50,15 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="10128" />
-          <entry key="html" value="2373" />
+          <entry key="css" value="10664" />
+          <entry key="html" value="2652" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="10128" />
-          <entry key="HTML" value="2373" />
+          <entry key="CSS" value="10664" />
+          <entry key="HTML" value="2652" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
@@ -71,8 +71,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="117" selection-start-line="5" selection-start-column="117" selection-end-line="5" selection-end-column="117" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
                 </state>
               </provider>
             </entry>
@@ -80,8 +80,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/catalog.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="60" column="161" selection-start-line="60" selection-start-column="161" selection-end-line="60" selection-end-column="161" />
+                <state relative-caret-position="204">
+                  <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
                 </state>
               </provider>
             </entry>
@@ -89,8 +89,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-271">
-                  <caret line="679" column="16" selection-start-line="679" selection-start-column="15" selection-end-line="679" selection-end-column="16" />
+                <state relative-caret-position="340">
+                  <caret line="1035" column="17" selection-start-line="1035" selection-start-column="17" selection-end-line="1035" selection-end-column="17" />
                 </state>
               </provider>
             </entry>
@@ -129,7 +129,7 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/../barbershop/barber/css/css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
+                <state relative-caret-position="-1921">
                   <caret line="547" column="4" selection-start-line="547" selection-start-column="4" selection-end-line="549" selection-end-column="29" />
                 </state>
               </provider>
@@ -157,6 +157,7 @@
       <find>produ</find>
       <find>vis</find>
       <find>fill</find>
+      <find>filter-catalog</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -168,10 +169,10 @@
         <option value="$PROJECT_DIR$/../barbershop/barber/img/css.css" />
         <option value="$PROJECT_DIR$/../barbershop/barber/index.html" />
         <option value="$PROJECT_DIR$/../barbershop/barber/item.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/../barbershop/barber/css/css.css" />
         <option value="$PROJECT_DIR$/../barbershop/barber/shop.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/catalog.html" />
       </list>
     </option>
@@ -252,7 +253,7 @@
       <workItem from="1540459453729" duration="6471000" />
       <workItem from="1540796147125" duration="88614000" />
       <workItem from="1542548361513" duration="11385000" />
-      <workItem from="1542876655815" duration="29274000" />
+      <workItem from="1542876655815" duration="41275000" />
     </task>
     <task id="LOCAL-00001" summary="bug resolve">
       <created>1540469215453</created>
@@ -265,7 +266,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135752000" />
+    <option name="totallyTimeSpent" value="147753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
@@ -357,13 +358,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="117" selection-start-line="5" selection-start-column="117" selection-end-line="5" selection-end-column="117" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../barbershop/barber/item.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
@@ -380,22 +374,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../barbershop/barber/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="-1921">
           <caret line="547" column="4" selection-start-line="547" selection-start-column="4" selection-end-line="549" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-271">
-          <caret line="679" column="16" selection-start-line="679" selection-start-column="15" selection-end-line="679" selection-end-column="16" />
+        <state relative-caret-position="340">
+          <caret line="1035" column="17" selection-start-line="1035" selection-start-column="17" selection-end-line="1035" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/catalog.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="60" column="161" selection-start-line="60" selection-start-column="161" selection-end-line="60" selection-end-column="161" />
+        <state relative-caret-position="204">
+          <caret line="12" column="60" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
         </state>
       </provider>
     </entry>
