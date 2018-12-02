@@ -665,10 +665,15 @@ table tr:last-child {
 
 
 
-.filter-input-radio:disabled + label {
+.filter-input:disabled + label {
     color: #283136;
 
     opacity: 0.3;
+}
+
+.filter-input-radio:disabled,
+.filter-input-checkbox:disabled {
+    opacity: 0.1;
 }
 
 .filter-input-radio + label::before {
