@@ -289,21 +289,23 @@
         <section class="modal modal-contact">
             <form class="feedback-form" action="#" method="post">
                 <h2>Напишите нам</h2>
+                <div class="modal-insert">
+                    <p>
+                        <label for="name-form">Ваше имя:</label><br>
+                        <input id="name-form" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+                    </p>
+                    <p>
+                        <label for="mail-form">Ваш e-mail:</label><br>
+                        <input id="mail-form" type="email" name="mail" value="" placeholder="Для отправки ответа">
+                    </p>
+                </div>
                 <p>
-                    <label for="name-form">Ваше имя:</label>
-                    <input id="name-form" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+                    <label for="text-form">Текст письма:</label><br>
+                    <textarea name="text-form" id="text-form" cols="30" rows="5">В свободной форме</textarea>
                 </p>
-                <p>
-                    <label for="mail-form">Ваш e-mail:</label>
-                    <input id="mail-form" type="text" name="mail" value="" placeholder="Для отправки ответа">
-                </p>
-                <p>
-                    <label for="text-form">Текст письма:</label>
-                    <textarea name="text-form" id="text-form" cols="30" rows="10">В свободной форме</textarea>
-                </p>
-                <button class="button" type="submit">ОТПРАВИТЬ</button>
+                <button class="button modal-button" type="submit">ОТПРАВИТЬ</button>
             </form>
             <button class="modal-close" type="button">Закрыть</button>
-        </section>
+        </section>>
     </body>
 </html>
