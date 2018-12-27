@@ -1036,12 +1036,11 @@ table tr:last-child {
     margin-top: 30px;
 
     background-color: #ffffff;
-    background-image: url("../img/map.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
+
 }
 
 .card-contacts {
+    position: absolute;
     display: block;
     height: 280px;
     width: 320px;
@@ -1069,6 +1068,7 @@ table tr:last-child {
 }
 
 .mark-contacts {
+    position: absolute;
     width: 231px;
 
     margin-left: 360px;
@@ -1266,11 +1266,15 @@ table tr:last-child {
     width: 360px;
     padding: 15px 15px;
     font: inherit;
-    color: rgba(68, 68, 68, 0.5);
     font-size: 16px;
     line-height: 18px;
 
     border: 2px solid #d7dcde;
+}
+
+.feedback-form input::placeholder,
+.feedback-form textarea::placeholder {
+    color: rgba(68, 68, 68, 0.5);
 }
 
 .feedback-form textarea {
@@ -1285,7 +1289,7 @@ table tr:last-child {
 .feedback-form input:focus,
 .feedback-form textarea:focus {
     border: 2px solid #000000;
-    color: rgba(68, 68, 68, 1);
+    color: rgba(68, 68, 0, 1);
 }
 
 .modal-button {
@@ -1295,4 +1299,16 @@ table tr:last-child {
 
 .modal-show {
     display: block;
+}
+
+.feedback-form .form-error {
+    border: 2px solid #e74246;
+}
+
+.feedback-form .form-error::placeholder {
+    color: #e74246;
+}
+
+iframe {
+    border: none;
 }
