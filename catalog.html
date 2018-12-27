@@ -229,6 +229,10 @@
         </main>
         <footer class="footer container">
             <section class="footer-contacts">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037999040354!2d30.322010416394033!3d59.938716271971415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2sBolshaya+Konyushennaya+ul.%2C+19%2C+Sankt-Peterburg%2C+Russia%2C+191186!5e0!3m2!1sen!2s!4v1441888483426" width="100%" height="100%" allowfullscreen></iframe>
+                <!--<div class="map-contacts">-->
+                <!--<img src="img/map.jpg" width="100%" height="100%" alt="#">-->
+                <!--</div>-->
                 <div class="card-contacts">
                     <h2 class="visually-hidden">Contacts</h2>
                     <h3>NЁRDS DESIGN STUDIO</h3>
@@ -236,9 +240,9 @@
                     <b>тел. +7 (812) 275-75-75</b><br>
                     <a class="button button-contacts" href="#">Напишите нам</a><br>
                 </div>
-                <div class="mark-contacts">
-                    <img src="img/map-marker.png" width="231" height="190" alt="mark">
-                </div>
+                <!--<div class="mark-contacts">-->
+                <!--<img src="img/map-marker.png" width="231" height="190" alt="mark">-->
+                <!--</div>-->
             </section>
             <section class="footer-social container">
                 <div class="social-column">
@@ -292,20 +296,21 @@
                 <div class="modal-insert">
                     <p>
                         <label for="name-form">Ваше имя:</label><br>
-                        <input id="name-form" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
+                        <input class="form-name" id="name-form" type="text" name="name" value="" placeholder="Представьтесь, пожалуйста">
                     </p>
                     <p>
                         <label for="mail-form">Ваш e-mail:</label><br>
-                        <input id="mail-form" type="email" name="mail" value="" placeholder="Для отправки ответа">
+                        <input class="form-mail" id="mail-form" type="email" name="mail" value="" placeholder="Для отправки ответа">
                     </p>
                 </div>
                 <p>
                     <label for="text-form">Текст письма:</label><br>
-                    <textarea name="text-form" id="text-form" cols="30" rows="5">В свободной форме</textarea>
+                    <textarea name="text-form" id="text-form" cols="30" rows="5" placeholder="В свободной форме"></textarea>
                 </p>
                 <button class="button modal-button" type="submit">ОТПРАВИТЬ</button>
             </form>
             <button class="modal-close" type="button">Закрыть</button>
-        </section>>
+        </section>
+        <script type="text/javascript" src="scripts/script.js"></script>
     </body>
 </html>
